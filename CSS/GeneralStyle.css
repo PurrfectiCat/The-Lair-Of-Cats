@@ -1,0 +1,71 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.FirstBox{
+    width: 800px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 00px;
+}
+
+.Profile{
+    white-space: nowrap;
+}
+
+.ProfileContainer{
+    display: flex;
+}
+
+.ProfImage{
+    margin-left: 500px;
+    max-width: 100%;
+    
+}
+
+.ProfText{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    white-space: nowrap;
+}
+  
+.row{
+    display: flex;
+}
+
+.column{
+    flex:40%
+}
+
+  .Boxed1{
+    width: 200px;
+    border: 5px solid black;
+    padding: 0px;
+    margin: 20px;
+    height: 313px;
+
+    position:absolute;
+    top: 850px;
+    left: 820px;
+  }
+
+  .hidden{
+    color: white;
+  }
+
+  .FontSized{
+    font-size: 20px;
+  }
+
+  a{
+    text-decoration: none;
+    color: cornflowerblue;
+  }
+
+  .Layer2Links{
+    position: absolute;
+    margin: left;
+    margin-top: 100px;
+  }
